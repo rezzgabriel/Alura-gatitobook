@@ -13,8 +13,8 @@ export class LoginComponent implements OnInit {
   senha = '';
 
   constructor(
-    private authService: AutenticacaoService,
-    private router: Router
+      private authService: AutenticacaoService,
+      private router: Router
     ) { }
 
   ngOnInit(): void {
